@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -66,10 +75,27 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "1726486054621ba910": {
+      "type": "apps",
+      "blocks": {
+        "instasync_instasync_feed_h9kEeN": {
+          "type": "shopify:\/\/apps\/instasync\/blocks\/instasync_feed\/98ab4ac6-e751-4136-9aa2-fada4b7a70e8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "instasync_instasync_feed_h9kEeN"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "1726486054621ba910"
   ]
 }
