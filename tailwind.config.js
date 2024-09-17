@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{html,js}"],
+  content: [
+    './layout/*.liquid',
+    './templates/*.liquid',
+    './sections/*.liquid',
+    './snippets/*.liquid',
+    './assets/*.js'],
   theme: {
     extend: {
       fontSize: {
@@ -10,6 +15,7 @@ module.exports = {
       colors: {
         dark_green: '#62673E',
         light_gray: '#413432',
+        blue: '#24ABE2',
       },
     },
   },

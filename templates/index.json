@@ -9,43 +9,78 @@
 */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "slideshow_epP3tz": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "slide_qnTJQU": {
+          "type": "slide",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "image": "shopify:\/\/shop_images\/header_slider_1_8ce5b390-9048-4044-8015-4f041c517d87.png",
+            "heading": "Lost X Catch Surf",
+            "heading_size": "h1",
+            "subheading": "New Models In Stock",
+            "button_label": "Shop Now",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         },
-        "button": {
-          "type": "buttons",
+        "slide_8rKARJ": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/header_slider_2_38d1f6ee-0512-4030-9a09-22969b861187.png",
+            "heading": "Womper Swim Fins",
+            "heading_size": "h1",
+            "subheading": "Free Keychain With Purchase",
+            "button_label": "Shop Now",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_FwGw36": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/header_slider_3_532c7410-030d-4cef-8bee-3fd86c532bb0.png",
+            "heading": "In & Out Of Water",
+            "heading_size": "h1",
+            "subheading": "New Hat Drop",
+            "button_label": "Shop Now",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "slide_qnTJQU",
+        "slide_8rKARJ",
+        "slide_FwGw36"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "featured_collection": {
@@ -59,12 +94,12 @@
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
+        "full_width": true,
+        "show_view_all": false,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
@@ -76,6 +111,7 @@
         "padding_bottom": 36
       }
     },
+<<<<<<< Updated upstream
     "1726486054621ba910": {
       "type": "apps",
       "blocks": {
@@ -90,12 +126,93 @@
       ],
       "settings": {
         "include_margins": true
+=======
+    "featured_collection_KwTVFB": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_QtPQkg": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_KQamP7": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+>>>>>>> Stashed changes
       }
     }
   },
   "order": [
+<<<<<<< Updated upstream
     "image_banner",
     "featured_collection",
     "1726486054621ba910"
+=======
+    "slideshow_epP3tz",
+    "featured_collection",
+    "featured_collection_KwTVFB",
+    "featured_collection_QtPQkg",
+    "featured_blog_KQamP7"
+>>>>>>> Stashed changes
   ]
 }

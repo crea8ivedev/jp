@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "extra_class": "ctm_flagship_store",
+        "ctm_page_title": "",
+        "page_banner": "shopify:\/\/shop_images\/header_slider_11.png",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

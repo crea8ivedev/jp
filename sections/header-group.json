@@ -5,22 +5,38 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_fAQqNm": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Shipping\/Returns On All Clothing Orders",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store",
             "link": ""
           }
+        },
+        "announcement_9NkJRw": {
+          "type": "announcement",
+          "settings": {
+            "text": "Earn Exclusive Rewards Every Time You Shop - Sign Up!",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement_fAQqNm",
+        "announcement-bar-0",
+        "announcement_9NkJRw"
       ],
       "settings": {
         "color_scheme": "scheme-1",
         "show_line_separator": true,
         "show_social": false,
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
@@ -28,10 +44,21 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "menu_right_aP8UUt": {
+          "type": "menu-right",
+          "settings": {
+            "right_menu": "test"
+          }
+        }
+      },
+      "block_order": [
+        "menu_right_aP8UUt"
+      ],
       "settings": {
-        "logo_position": "middle-left",
+        "logo_position": "middle-center",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
