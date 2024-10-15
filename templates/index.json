@@ -111,22 +111,6 @@
         "padding_bottom": 36
       }
     },
-<<<<<<< Updated upstream
-    "1726486054621ba910": {
-      "type": "apps",
-      "blocks": {
-        "instasync_instasync_feed_h9kEeN": {
-          "type": "shopify:\/\/apps\/instasync\/blocks\/instasync_feed\/98ab4ac6-e751-4136-9aa2-fada4b7a70e8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "instasync_instasync_feed_h9kEeN"
-      ],
-      "settings": {
-        "include_margins": true
-=======
     "featured_collection_KwTVFB": {
       "type": "featured-collection",
       "settings": {
@@ -198,21 +182,14 @@
         "show_view_all": false,
         "padding_top": 36,
         "padding_bottom": 36
->>>>>>> Stashed changes
       }
     }
   },
   "order": [
-<<<<<<< Updated upstream
-    "image_banner",
-    "featured_collection",
-    "1726486054621ba910"
-=======
     "slideshow_epP3tz",
     "featured_collection",
     "featured_collection_KwTVFB",
     "featured_collection_QtPQkg",
     "featured_blog_KQamP7"
->>>>>>> Stashed changes
   ]
 }
