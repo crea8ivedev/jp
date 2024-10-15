@@ -1,3 +1,97 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer base {
+    /* GLoble CSS */
+    *,
+    ::before,
+    ::after {
+      @apply box-border;
+    }
+    ::-webkit-scrollbar {
+      @apply w-[5px];
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+      @apply bg-black;
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      @apply rounded-10 bg-dark_pink1;
+    }
+    html {
+      @apply scroll-smooth;
+    }
+    body {
+      @apply p-0 m-0 font-body text-16 leading-26 antialiased;
+      -webkit-font-smoothing: antialiased;
+    }
+    a {
+      @apply transition-all duration-300 ease-in-out cursor-pointer font-body;
+    }
+    p {
+      @apply font-body text-16 leading-26 m-0 tracking-normal;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply m-0 !shadow-none;
+    }
+
+    h1, .h1 {
+      @apply font-heading font-bold text-24 leading-28 xsscreen1:text-32 xsscreen1:leading-42 md:text-36 md:leading-46 desktop:text-44 desktop:leading-46 large_desktop:!text-64 large_desktop:!leading-75 uppercase tracking-[1.92px] smscreen1:tracking-[2.56px];
+    } 
+ 
+    h2, .h2 {
+        @apply font-heading font-bold text-26 leading-32 desktop:text-32 desktop:leading-36 2xl:!text-48 2xl:!leading-56 uppercase tracking-[1.12px] smscreen1:tracking-[1.92px];
+    }
+
+    h3 {
+        @apply font-heading font-bold text-24 leading-31 desktop:text-28 desktop:leading-36 large_desktop:text-32 large_desktop:leading-36 uppercase tracking-[0.96px];
+    }
+
+    .h3 {
+        @apply font-heading font-light text-24 leading-31 desktop:text-28 desktop:leading-36 large_desktop:text-32 large_desktop:leading-36 uppercase tracking-[1.28px];
+    }
+
+    h4, h4 {
+        @apply font-heading font-bold text-22 leading-24 large_desktop:text-24 large_desktop:leading-28 uppercase;
+    }
+
+    h5 {
+        @apply font-heading font-normal text-20 leading-24 tracking-[0.8px] uppercase;
+    }
+
+    .h5 {
+        @apply font-heading font-bold text-18 leading-26 xl:text-24 xl:leading-31 uppercase;
+    }
+
+    h6 {
+        @apply font-body font-light text-12 leading-22 tracking-[0.48px] capitalize;
+    }
+    .container_xl {
+      @apply px-30 small_desktop:px-35 large_desktop:px-55;
+    }
+    .container_fluid {
+      @apply px-30 md:px-55 small_desktop:px-70 large_desktop:px-100;
+    }
+    .xxl_title {
+      @apply font-heading font-bold text-[200px] leading-[200px] uppercase tracking-[8px];
+    }
+    .pink_text {
+      @apply font-body text-pink hover:text-blue transition-all duration-300 ease-in-out;
+    }
+    .blue_text {
+        @apply font-body text-blue hover:text-pink transition-all duration-300 ease-in-out;
+    }
+    .black_text {
+        @apply font-body font-semibold text-[#54565A] hover:text-pink transition-all duration-300 ease-in-out; 
+    }
+
+}

@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_epP3tz": {
@@ -15,7 +15,7 @@
         "slide_qnTJQU": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/header_slider_1_8ce5b390-9048-4044-8015-4f041c517d87.png",
+            "image": "shopify://shop_images/header_slider_1_8ce5b390-9048-4044-8015-4f041c517d87.png",
             "heading": "Lost X Catch Surf",
             "heading_size": "h1",
             "subheading": "New Models In Stock",
@@ -33,7 +33,7 @@
         "slide_8rKARJ": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/header_slider_2_38d1f6ee-0512-4030-9a09-22969b861187.png",
+            "image": "shopify://shop_images/header_slider_2_38d1f6ee-0512-4030-9a09-22969b861187.png",
             "heading": "Womper Swim Fins",
             "heading_size": "h1",
             "subheading": "Free Keychain With Purchase",
@@ -51,7 +51,7 @@
         "slide_FwGw36": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/header_slider_3_532c7410-030d-4cef-8bee-3fd86c532bb0.png",
+            "image": "shopify://shop_images/header_slider_3_532c7410-030d-4cef-8bee-3fd86c532bb0.png",
             "heading": "In & Out Of Water",
             "heading_size": "h1",
             "subheading": "New Hat Drop",
